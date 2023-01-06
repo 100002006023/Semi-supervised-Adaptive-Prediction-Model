@@ -22,8 +22,6 @@ from tensorflow.keras.layers import Dropout
 
 
 
-
-
 model = Sequential([
         Conv2D(128, 3, padding='same',input_shape=(224, 224, 3)),
         MaxPooling2D(),
